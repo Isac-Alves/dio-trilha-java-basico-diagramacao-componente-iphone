@@ -25,9 +25,13 @@ classDiagram
         +adicionarNovaAba() 
         +atualizarPagina()
     }
-    
-    Iphone ..|> ReprodutorMusical
-    Iphone ..|> AparelhoTelefonico
-    Iphone ..|> NavegadorInternet
+    class Macintosh{
+
+    }
+    Macintosh --|> NavegadorInternet
+    Iphone --|> ReprodutorMusical
+    Iphone --|> AparelhoTelefonico
+    Iphone --|> NavegadorInternet
+
 
 ```

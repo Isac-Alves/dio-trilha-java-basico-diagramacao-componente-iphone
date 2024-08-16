@@ -28,10 +28,10 @@ classDiagram
     class Macintosh{
 
     }
-    Macintosh --|> NavegadorInternet
-    Iphone --|> ReprodutorMusical
-    Iphone --|> AparelhoTelefonico
-    Iphone --|> NavegadorInternet
+    Macintosh ..|> NavegadorInternet
+    Iphone ..|> ReprodutorMusical
+    Iphone ..|> AparelhoTelefonico
+    Iphone ..|> NavegadorInternet
 
 
 ```
